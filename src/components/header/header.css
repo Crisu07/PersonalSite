@@ -1,8 +1,8 @@
 header {
-    height: 80vh;
+    height: 100vh;
     padding: 7rem;
     overflow: hidden;
-    margin-bottom: -8rem;
+    /* margin-bottom: -8rem; */
 }
 
 .header_container {
@@ -27,13 +27,13 @@ header {
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 4rem;
+    bottom: 3rem;
 }
     /* adds line under the socials icons */
 .socials::after { 
     content: '';
     width: 1px;
-    height: 4rem;
+    height: 1rem;
     background: var(--color-primary);
 }
 
@@ -42,7 +42,7 @@ header {
 .img {
     background: linear-gradient(#ffffff, transparent);
     width: 22rem;
-    height: 31rem;
+    height: 30rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -53,7 +53,7 @@ header {
     /* resizing image itself */
 img {
     width: 22rem;
-    height: 33.4rem;
+    height: 34rem;
     margin-top: -8rem;
     display: block;
 }
@@ -70,12 +70,18 @@ img {
 
 /* ------------MEDIA QUERIES (MEDIUM DEVICES - aka tablets)------------ */
 @media screen and (max-width: 1024px) {
-    .containter {
-        
+    header {
+        height: 68vh;
     }
 }
 
 /* ------------MEDIA QUERIES (SMALL DEVICES -aka mobile phones)------------  */
 @media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+    }
 
+    .socials, .scroll_down {
+        display: none;
+    }
 }

@@ -66,6 +66,7 @@ h1 {
 /* every component tab will be wrapped in a section */
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, secton > h5 {
