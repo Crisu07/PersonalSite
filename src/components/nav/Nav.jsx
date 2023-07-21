@@ -4,17 +4,29 @@ import {AiOutlineHome, AiOutlineUser, AiOutlineFolderOpen, AiOutlineMail} from '
 import {MdOutlineWorkHistory} from 'react-icons/md'
 import {BsPeople} from 'react-icons/bs'
 import {RiServiceLine} from 'react-icons/ri'
+import { useState } from 'react'
 
 const Nav = () => {
+  // Use state to change colors of selected icon on nav bar 
+  const [navActive, setNavActive] = useState('#')
+
   return (
     <nav>
-      <a href="#"><AiOutlineHome/></a>
-      <a href="#about"><AiOutlineUser/></a>
-      <a href="#experience"><MdOutlineWorkHistory/></a>
-      <a href="#services"><RiServiceLine/></a>
-      <a href="#portfolio"><AiOutlineFolderOpen/></a>
-      <a href="#reviews"><BsPeople/></a>
-      <a href="#contact"><AiOutlineMail/></a>
+      {/* Onclick, change use state to about, and if it is about or whatever, change to active */}
+      <a href="#" onClick={() => setNavActive('#')} 
+        className={navActive === '#' ? 'active' : ''}><AiOutlineHome/></a>
+      <a href="#about" onClick={() => setNavActive('#about')} 
+        className={navActive === '#about' ? 'active' : ''}><AiOutlineUser/></a>
+      <a href="#experience" onClick={() => setNavActive('#experience')}
+        className={navActive === '#experience' ? 'active' : ''}><MdOutlineWorkHistory/></a>
+      <a href="#services" onClick={() => setNavActive('#services')}
+        className={navActive === '#services' ? 'active' : ''}><RiServiceLine/></a>
+      <a href="#portfolio" onClick={() => setNavActive('#portfolio')}
+        className={navActive === '#portfolio' ? 'active' : ''}><AiOutlineFolderOpen/></a>
+      <a href="#reviews" onClick={() => setNavActive('#reviews')}
+        className={navActive === '#reviews' ? 'active' : ''}><BsPeople/></a>
+      <a href="#contact" onClick={() => setNavActive('#contact')}
+        className={navActive === '#contact' ? 'active' : ''}><AiOutlineMail/></a>
     </nav>
   )
 }
