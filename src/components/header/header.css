@@ -1,8 +1,7 @@
 header {
     height: 100vh;
-    padding: 7rem;
+    padding: 10rem;
     overflow: hidden;
-    /* margin-bottom: -8rem; */
 }
 
 .header_container {
@@ -40,9 +39,9 @@ header {
 /* ----------- PFP ----------- */
     /* changing image background to curved ark */
 .img {
-    background: linear-gradient(#ffffff, transparent);
+    background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 30rem;
+    height: 32rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -51,8 +50,8 @@ header {
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
     /* resizing image itself */
-img {
-    width: 22rem;
+.headerimg {
+    width: 19rem;
     height: 34rem;
     margin-top: -8rem;
     display: block;
@@ -72,6 +71,7 @@ img {
 @media screen and (max-width: 1024px) {
     header {
         height: 68vh;
+        padding: 8rem;
     }
 }
 
@@ -79,6 +79,7 @@ img {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+        padding: 8rem;
     }
 
     .socials, .scroll_down {

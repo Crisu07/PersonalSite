@@ -7,7 +7,8 @@ TODO:\
 [x] Header\
 [x] Nav Bar\
     - extras: get nav bar icons to change when scrolling to section manually\
-[] About\
+[x] About\
+[] Experience/Skills\
 [] Portfolio\
 [] Reviews\
-[] Contact\
+[] Contact

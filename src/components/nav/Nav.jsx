@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './nav.css'
 import {AiOutlineHome, AiOutlineUser, AiOutlineFolderOpen, AiOutlineMail} from 'react-icons/ai'
 import {MdOutlineWorkHistory} from 'react-icons/md'
