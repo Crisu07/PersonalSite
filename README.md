@@ -8,7 +8,8 @@ TODO:\
 [x] Nav Bar\
     - extras: get nav bar icons to change when scrolling to section manually\
 [x] About\
-[] Experience/Skills\
+[x] Experience/Skills\
+    - edge case: container format gets skewed in tablet horizontal mode (everything still readable though)
 [] Portfolio\
 [] Reviews\
 [] Contact

@@ -73,7 +73,7 @@
 .aboutbuttons {
     display: flex;
     gap: 2rem;
-    margin-left: 2.2rem;
+    justify-content: center;
 }
 
 
