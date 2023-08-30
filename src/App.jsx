@@ -12,7 +12,7 @@ import Footer from './components/footer/Footer'
 const App = () => {
   return (
     // react fragment
-    <> 
+    <div> 
         <Header />
         <Nav />
         <About />
@@ -22,7 +22,7 @@ const App = () => {
         <Reviews />
         <Contact />
         <Footer />
-    </>
+    </div>
   )
 }
 

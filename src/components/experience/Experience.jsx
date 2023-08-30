@@ -66,7 +66,7 @@ const Experience = () => {
               <BsBookmarkCheckFill className='experience_details-icon'/>
               <div>
                 <h4>C++</h4>
-                <small className='text-light'>Novice</small>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience_details'>
@@ -129,7 +129,7 @@ const Experience = () => {
             <article className='experience_details'>
               <BsBookmarkCheckFill className='experience_details-icon'/>
               <div>
-                <h4>MySQL/PostgreSQL</h4>
+                <h4>SQL</h4>
                 <small className='text-light'>Novice</small>
               </div>
             </article>
