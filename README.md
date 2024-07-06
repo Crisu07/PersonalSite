@@ -10,6 +10,7 @@ TODO:\
 [x] About\
 [x] Experience/Skills\
     - edge case: container format gets skewed in tablet horizontal mode (everything still readable though)
-[] Portfolio\
-[] Contact\
-    - Link contact to [Keyboard Gallery](https://github.com/Crisu07/KeebGallery)
+[x] Portfolio\
+    - TO DO: Link Live demo vids?
+[x] Contact\
+    - Add a Form to fill out for Emails?

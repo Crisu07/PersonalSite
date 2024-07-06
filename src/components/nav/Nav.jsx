@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import './nav.css'
 import {AiOutlineHome, AiOutlineUser, AiOutlineFolderOpen, AiOutlineMail} from 'react-icons/ai'
 import {MdOutlineWorkHistory} from 'react-icons/md'
-import {BsPeople} from 'react-icons/bs'
 import {RiServiceLine} from 'react-icons/ri'
 import { useState } from 'react'
 
@@ -23,8 +22,6 @@ const Nav = () => {
         className={navActive === '#portfolio' ? 'active' : ''}><AiOutlineFolderOpen/></a>
       <a href="#services" onClick={() => setNavActive('#services')}
         className={navActive === '#services' ? 'active' : ''}><RiServiceLine/></a>
-      <a href="#reviews" onClick={() => setNavActive('#reviews')}
-        className={navActive === '#reviews' ? 'active' : ''}><BsPeople/></a>
       <a href="#contact" onClick={() => setNavActive('#contact')}
         className={navActive === '#contact' ? 'active' : ''}><AiOutlineMail/></a>
     </nav>
