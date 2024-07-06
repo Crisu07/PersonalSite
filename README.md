@@ -11,5 +11,5 @@ TODO:\
 [x] Experience/Skills\
     - edge case: container format gets skewed in tablet horizontal mode (everything still readable though)
 [] Portfolio\
-[] Reviews\
-[] Contact
+[] Contact\
+    - Link contact to [Keyboard Gallery](https://github.com/Crisu07/KeebGallery)

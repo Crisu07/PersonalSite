@@ -19,10 +19,10 @@ const Nav = () => {
         className={navActive === '#about' ? 'active' : ''}><AiOutlineUser/></a>
       <a href="#experience" onClick={() => setNavActive('#experience')}
         className={navActive === '#experience' ? 'active' : ''}><MdOutlineWorkHistory/></a>
-      <a href="#services" onClick={() => setNavActive('#services')}
-        className={navActive === '#services' ? 'active' : ''}><RiServiceLine/></a>
       <a href="#portfolio" onClick={() => setNavActive('#portfolio')}
         className={navActive === '#portfolio' ? 'active' : ''}><AiOutlineFolderOpen/></a>
+      <a href="#services" onClick={() => setNavActive('#services')}
+        className={navActive === '#services' ? 'active' : ''}><RiServiceLine/></a>
       <a href="#reviews" onClick={() => setNavActive('#reviews')}
         className={navActive === '#reviews' ? 'active' : ''}><BsPeople/></a>
       <a href="#contact" onClick={() => setNavActive('#contact')}

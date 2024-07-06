@@ -1,6 +1,6 @@
 // File for download resume button
 import React from 'react'
-import rs from '../../assets/Chris_Resume_v1.pdf'
+import rs from '../../assets/chrisnguyen_resume.pdf'
 
 const Resume = () => {
   return (
