@@ -1,0 +1,94 @@
+header {
+    height: 100vh;
+    padding: 10rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+/* ----------- RESUME BUTTONS ----------- */
+.resume {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ----------- SOCIALS ICONS ----------- */
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+}
+    /* adds line under the socials icons */
+.socials::after { 
+    content: '';
+    width: 1px;
+    height: 1rem;
+    background: var(--color-primary);
+}
+
+/* ----------- PFP ----------- */
+    /* changing image background to curved ark */
+.img {
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 32rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+    /* resizing image itself */
+.headerimg {
+    width: 19rem;
+    height: 34rem;
+    margin-top: -8rem;
+    display: block;
+}
+
+/* ----------- SCROLL DOWN BUTTON ----------- */
+.scroll_down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* ------------MEDIA QUERIES (MEDIUM DEVICES - aka tablets)------------ */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+        padding: 8rem;
+    }
+}
+
+/* ------------MEDIA QUERIES (SMALL DEVICES -aka mobile phones)------------  */
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+        padding: 8rem;
+    }
+
+    .socials, .scroll_down {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 932px) and (orientation: landscape) {
+    .socials, .scroll_down, .resume {
+        display: none;
+    }
+}

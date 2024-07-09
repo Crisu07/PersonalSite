@@ -1,0 +1,33 @@
+nav {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.9rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blue(15px);
+}
+
+nav a {
+    background: transparent;
+    padding: 1rem;
+    border-radius: 50%;
+    /* display: flex; */
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+
+/* Black circle upon hovering over a button on nav bar */
+nav a:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+    background: var(--color-bg);
+    color: var(--color-white);
+}
