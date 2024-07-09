@@ -86,3 +86,9 @@ header {
         display: none;
     }
 }
+
+@media screen and (max-width: 932px) and (orientation: landscape) {
+    .socials, .scroll_down, .resume {
+        display: none;
+    }
+}

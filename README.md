@@ -1,16 +1,20 @@
 # PersonalSite
-Personal Site for me
 
-Work in progress
+This is a personal site for me to display not only my programming skills but allow me you guys to know more about me!
 
-TODO:\
+## Website Link
+
+https://chrisnguyen.netlify.app/
+
+## Things included
+
 [x] Header\
 [x] Nav Bar\
     - edge case: get nav bar icons to change when scrolling to section manually\
 [x] About\
 [x] Experience/Skills\
-    - edge case: container format gets skewed in tablet horizontal mode (everything still readable though)
-[x] Portfolio\
-    - TO DO: Link Live demo vids?
+[x] Programming Portfolio\
+[x] Keyboard Commission Portfolio\
 [x] Contact\
     - Add a Form to fill out for Emails?
+
