@@ -11,17 +11,6 @@ https://chrisnguyen.netlify.app/
 - Resume and Socials
 - My Background
 - Skills & Tools
+- Work Experience
 - Programming Portfolio
 - Keyboard Portfolio (links to [keyboard gallery](https://github.com/Crisu07/KeebGallery))
-
-## To Do
-[x] Header\
-[x] Nav Bar\
-    - edge case: get nav bar icons to change when scrolling to section manually\
-[x] About\
-[x] Experience/Skills\
-[x] Programming Portfolio\
-[x] Keyboard Commission Portfolio\
-[x] Contact\
-    - Add a Form to fill out for Emails?
-

@@ -43,6 +43,35 @@
     color: var(--color-primary);
 }
 
+.about_card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Contents of Work Experience tab */
+.experience_content2 {
+    display: grid;
+    row-gap: 2rem;
+}
+
+.experience_details2 {
+    display: flex;
+    gap: 1rem;
+}
+
+.experience_details-icon2 {
+    margin-top: 6px;
+    color: var(--color-primary);
+    font-size: 40px;
+}
+
+.experience_details_small {
+    color: var(--color-light);
+}
+
 /* ------------MEDIA QUERIES (MEDIUM DEVICES - aka tablets)------------ */
 @media screen and (max-width: 1024px) {
     .experience_container {

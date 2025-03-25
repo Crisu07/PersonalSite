@@ -54,7 +54,7 @@ const Contact = () => {
               <FaYoutube className='contact_optionicon'/>
               <h4>Youtube</h4>
               <h5>Keyboard Videos</h5>
-              <a href="https://www.youtube.com/@acrisu/videos" target='_blank'>Check out my Youtube</a>
+              <a href="https://www.youtube.com/@crisufps/videos" target='_blank'>Check out my Youtube</a>
             </article>
         </div>
         
