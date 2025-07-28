@@ -1,6 +1,14 @@
 // import React from 'react'; // dont need this in new update
-import ReactDOM from 'react-dom';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 import App from './App';
 import './index.css';
 
-ReactDOM.render(<App/>, document.querySelector('#root'));
+const root = createRoot(document.getElementById('root'));
+root.render(
+    <StrictMode>
+        <App />
+    </StrictMode>
+)
+
+// ReactDOM.render(<App/>, document.querySelector('#root'));

@@ -28,7 +28,7 @@ const Services = () => {
               View my keyboard portfolio below! 
             </p>
             <div className='servicebuttons'>
-              <a href="https://www.instagram.com/chrispy.ng/" target='_blank' className='btn'>Instagram</a>
+              <a href="https://www.instagram.com/crisu.fps/" target='_blank' className='btn'>Instagram</a>
               <a onClick={handleClick} className='btn'>Keyboards</a>
             </div>
         </div>

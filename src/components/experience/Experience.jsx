@@ -123,7 +123,7 @@ const Experience = () => {
               <BsBookmarkCheckFill className='experience_details-icon'/>
               <div>
                 <h4>SQL</h4>
-                <small className='text-light'>Novice</small>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience_details'>
@@ -131,6 +131,13 @@ const Experience = () => {
               <div>
                 <h4>Android Studio</h4>
                 <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <BsBookmarkCheckFill className='experience_details-icon'/>
+              <div>
+                <h4>Pentaho</h4>
+                <small className='text-light'>Novice</small>
               </div>
             </article>
           </div>
@@ -144,14 +151,37 @@ const Experience = () => {
           <article className='experience_details2'>
               <FaSuitcase className='experience_details-icon2'/>
               <div>
-                <h4>Business Intelligence Administrative Specialist</h4>
+                <h4>Administrative Specialist III</h4>
+                <h5>LACOE, Best Project, HCM Conversion Team</h5>
+                <h6>Dec.2024 - June 2025</h6>
+                <small className='experience_details_small'>
+                  -  Assumed Data Analyst responsibilities in assisting with the HCM system conversion for BEST Project.
+                  <br />
+                  - Executed scripts in Pentaho Maps to convert and generate configuration workbooks for HCM system loading.
+                  <br />
+                  - Utilized SQL queries and scripts to produce error logs, validate data, and perform system updates in the HCM system
+                  <br />
+                  - Leveraged WinSCP and IST system to import, verify, and update information in the HCM system.
+                  <br />
+                  - Assisted the BEST Project Team in creating and reviewing district-specific configuration workbooks.
+                  <br />
+                </small>
+              </div>
+            </article>
+
+          <article className='experience_details2'>
+              <FaSuitcase className='experience_details-icon2'/>
+              <div>
+                <h4>Administrative Specialist II</h4>
                 <h5>LACOE, Applications Development and Support (AD&S)</h5>
-                <h6>Dec.2024 - Present</h6>
+                <h6>Dec.2024 - June 2025</h6>
                 <small className='experience_details_small'>- Deployed various Power BI reports and SQL Server data models to multiple sharepoints and workspaces
                   <br />
-                  - Constructed and updated Power BI reports to accurately reflect HCM system data.
+                  - Assisted the Business Intelligence team in constructing and updating Power BI reports to accurately reflect HCM system data
                   <br />
-                  - Performed routinely daily checks and updates on various districts/agencies’ Power BI reports and data models.
+                  - Deployed various Power BI reports and SQL Server data models to multiple SharePoints and workspaces
+                  <br />
+                  - Performed daily checks and updates on various districts/agencies’ Power BI reports and data models.
                   <br />
                   - Developed and updated PowerShell queries to automate everyday tasks and Power BI features.
                   <br />
@@ -172,7 +202,7 @@ const Experience = () => {
                 <small className='experience_details_small'>
                   - Loaded various HR and Payroll tables to the HCM system using company standard procedures.
                   <br />
-                  - Reviewed and updated various client information within the HCM system to ensure accuracy
+                  - Reviewed and updated various client information within the HCM system to ensure accuracy.
                   <br />
                 </small>
               </div>

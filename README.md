@@ -14,3 +14,6 @@ https://chrisnguyen.netlify.app/
 - Work Experience
 - Programming Portfolio
 - Keyboard Portfolio (links to [keyboard gallery](https://github.com/Crisu07/KeebGallery))
+
+## Dependencies (Do NOT Run npm audit fix --force on any of these)
+- npm install react-icons --save
