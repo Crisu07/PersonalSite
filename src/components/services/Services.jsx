@@ -2,9 +2,9 @@ import React from 'react'
 import './services.css'
 import KEEB from '../../assets/tiger6.jpg'
 
-function handleClick() {
-  window.location.href = 'https://crisukeebs.netlify.app/';
-}
+// function handleClick() {
+//   window.location.href = 'https://crisukeebs.netlify.app/';
+// }
 
 const Services = () => {
   return (
@@ -14,7 +14,7 @@ const Services = () => {
     <div className='container service_container'>
         <div className="service_keeb">
           <div className="service_image">
-            <img src={KEEB} alt="Service Image" />
+            <img src={KEEB} alt="Service Img" />
           </div>
         </div>
 
@@ -28,8 +28,9 @@ const Services = () => {
               View my keyboard portfolio below! 
             </p>
             <div className='servicebuttons'>
-              <a href="https://www.instagram.com/crisu.fps/" target='_blank' className='btn'>Instagram</a>
-              <a onClick={handleClick} className='btn'>Keyboards</a>
+              <a href="https://www.instagram.com/crisu.fps/" target='_blank' rel="noreferrer"className='btn'>Instagram</a>
+              <a href="https://crisukeebs.netlify.app/" className='btn'>Keyboards</a>
+              {/* <a onClick={handleClick} className='btn'>Keyboards</a> */}
             </div>
         </div>
       </div>

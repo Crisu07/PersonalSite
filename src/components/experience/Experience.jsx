@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import {BsBookmarkCheckFill, BsFolderCheck} from 'react-icons/bs'
+import {BsBookmarkCheckFill} from 'react-icons/bs'
 import { FaSuitcase } from "react-icons/fa";
 
 const Experience = () => {
@@ -151,19 +151,19 @@ const Experience = () => {
           <article className='experience_details2'>
               <FaSuitcase className='experience_details-icon2'/>
               <div>
-                <h4>Administrative Specialist III</h4>
+                <h4>Technical Specialist</h4>
                 <h5>LACOE, Best Project, HCM Conversion Team</h5>
-                <h6>Dec.2024 - June 2025</h6>
+                <h6>June 2025-Present</h6>
                 <small className='experience_details_small'>
-                  -  Assumed Data Analyst responsibilities in assisting with the HCM system conversion for BEST Project.
+                  -  Assumed Data Analyst responsibilities in assisting with the HCM system conversion for BEST Project
                   <br />
-                  - Executed scripts in Pentaho Maps to convert and generate configuration workbooks for HCM system loading.
+                  - Executed scripts in Pentaho Maps to convert and generate configuration workbooks for HCM system loading
                   <br />
-                  - Utilized SQL queries and scripts to produce error logs, validate data, and perform system updates in the HCM system
+                  - Successfully converted multiple school districts into the HCM system by utilizing SQL queries and WinSCP to perform system updates, validate data, and produce error logs
                   <br />
-                  - Leveraged WinSCP and IST system to import, verify, and update information in the HCM system.
+                  - Leveraged WinSCP and IST system to import, verify, and update information in the HCM system
                   <br />
-                  - Assisted the BEST Project Team in creating and reviewing district-specific configuration workbooks.
+                  - Assisted the BEST Project Team in creating and reviewing district-specific configuration workbooks
                   <br />
                 </small>
               </div>
@@ -181,13 +181,13 @@ const Experience = () => {
                   <br />
                   - Deployed various Power BI reports and SQL Server data models to multiple SharePoints and workspaces
                   <br />
-                  - Performed daily checks and updates on various districts/agencies’ Power BI reports and data models.
+                  - Performed daily checks and updates on various districts/agencies’ Power BI reports and data models
                   <br />
-                  - Developed and updated PowerShell queries to automate everyday tasks and Power BI features.
+                  - Developed and updated PowerShell queries to automate everyday tasks and Power BI features
                   <br />
-                  - Constructed a data dictionary for all data models to aid users in understanding correlations between HCM system and Power BI data fields.
+                  - Constructed a data dictionary for all data models to aid users in understanding correlations between HCM system and Power BI data fields
                   <br />
-                  - Utilized RemedyForce to aid users with Power BI related issues.
+                  - Utilized RemedyForce to aid users with Power BI related issues
                   <br />
                 </small>
               </div>
@@ -200,9 +200,9 @@ const Experience = () => {
                 <h5>LACOE, BEST Team</h5>
                 <h6>Oct.2024 - Dec.2024</h6>
                 <small className='experience_details_small'>
-                  - Loaded various HR and Payroll tables to the HCM system using company standard procedures.
+                  - Loaded various HR and Payroll tables to the HCM system using company standard procedures
                   <br />
-                  - Reviewed and updated various client information within the HCM system to ensure accuracy.
+                  - Reviewed and updated various client information within the HCM system to ensure accuracy
                   <br />
                 </small>
               </div>

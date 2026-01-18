@@ -26,7 +26,7 @@ const Contact = () => {
             <BsLinkedin className='contact_optionicon'/>
             <h4>LinkedIn</h4>
             <h5>Chris Nguyen</h5>
-            <a href="https://www.linkedin.com/in/chris-nguyen-629327275/" target='_blank'>Message me on LinkedIn</a>
+            <a href="https://www.linkedin.com/in/chris-nguyen-629327275/" target='_blank' rel="noreferrer">Message me on LinkedIn</a>
           </article>
 
           <article className='contact_option'>
@@ -39,22 +39,22 @@ const Contact = () => {
           <article className='contact_option'>
               <BsInstagram className='contact_optionicon'/>
               <h4>Instagram</h4>
-              <h5>chrispy.ng</h5>
-              <a href="https://www.instagram.com/chrispy.ng/" target='_blank'>Follow me on Insta</a>
+              <h5>crisu.fps</h5>
+              <a href="https://www.instagram.com/crisu.fps/" target='_blank' rel="noreferrer">Follow me on Insta</a>
             </article>
 
             <article className='contact_option'>
               <IoLogoDiscord className='contact_optionicon'/>
               <h4>Discord</h4>
               <h5>Gaming</h5>
-              <a href="https://discordapp.com/users/201826484145487873" target='_blank'>Add me on Discord</a>
+              <a href="https://discordapp.com/users/201826484145487873" target='_blank' rel="noreferrer">Add me on Discord</a>
             </article>
 
             <article className='contact_option'>
               <FaYoutube className='contact_optionicon'/>
               <h4>Youtube</h4>
               <h5>Keyboard Videos</h5>
-              <a href="https://www.youtube.com/@crisufps/videos" target='_blank'>Check out my Youtube</a>
+              <a href="https://www.youtube.com/@crisufps/videos" target='_blank' rel="noreferrer">Check out my Youtube</a>
             </article>
         </div>
         
