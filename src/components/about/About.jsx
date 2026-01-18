@@ -24,6 +24,7 @@ const About = () => {
             <p>
               I enjoy a variety of hobbies ranging between building custom keyboards, shooting photography, and collecting a variety of trading card games such as Pokemon, One Piece, and Magic the Gathering. I also am a Pokemon TCG player and judge.
             </p>
+            <br />
             <div className='aboutbuttons'>
               <a href="#contact" className='btn'>Contact Me</a>
               <a href="#portfolio" className='btn'>View my Projects</a>
